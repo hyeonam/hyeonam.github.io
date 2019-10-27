@@ -1,0 +1,74 @@
+<HTML>
+<head>
+	<title>Untitled</title>
+</head>
+
+<script language="JavaScript">
+<!--//
+      imgmenu_1on = new Image();
+      imgmenu_1on.src = "images/up_c_04r.gif";
+      imgmenu_2on = new Image();
+      imgmenu_2on.src = "images/up_c_05r.gif";
+      imgmenu_3on = new Image();
+      imgmenu_3on.src = "images/up_c_07r.gif";
+      imgmenu_4on = new Image();
+      imgmenu_4on.src = "images/up_c_08r.gif";
+	  imgmenu_5on = new Image();
+      imgmenu_5on.src = "images/up_c_09r.gif";
+      
+      
+
+      imgmenu_1off = new Image();
+      imgmenu_1off.src = "images/up_c_04.gif";
+      imgmenu_2off = new Image();
+      imgmenu_2off.src = "images/up_c_05.gif";
+      imgmenu_3off = new Image();
+      imgmenu_3off.src = "images/up_c_07.gif";
+      imgmenu_4off = new Image();
+      imgmenu_4off.src = "images/up_c_08.gif";
+	  imgmenu_5off = new Image();
+      imgmenu_5off.src = "images/up_c_09.gif";
+      
+      
+
+
+  function img_act(imgName) {
+      imgon = eval(imgName + "on.src");
+      document [imgName].src = imgon;
+     } 
+  function img_inact(imgName) {
+      imgoff = eval(imgName + "off.src");
+      document [imgName].src = imgoff;
+    }
+//-->
+</script>
+
+<body background="images/up_c_bg.gif" leftmargin ="0" marginwidth = "0"  topmargin="0" marginheight= "0" >
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD COLSPAN=5>
+			<IMG SRC="images/up_c_01.gif"  BORDER=0></TD>
+		<TD COLSPAN=3>
+			<IMG SRC="images/up_c_02.gif" BORDER=0></TD>
+	</TR>
+	<TR>
+		<TD>
+			<IMG SRC="images/up_c_03.gif" BORDER=0></TD>
+		<TD>
+			<a href="../a/index_a.html" target="_parent" OnMouseOver="img_act('imgmenu_1')" OnMouseOut="img_inact('imgmenu_1')"><img src="images/up_c_04.gif" border=0 name="imgmenu_1"></a></TD>
+		<td>	
+			<a href="../b/index_b.html" target="_parent" OnMouseOver="img_act('imgmenu_2')" OnMouseOut="img_inact('imgmenu_2')"><img src="images/up_c_05.gif" border=0 name="imgmenu_2"></a></TD>
+		<TD>
+			<IMG SRC="images/up_c_06.gif" BORDER=0></TD>
+		<td>	
+			<a href="../d/index_d.html" target="_parent" OnMouseOver="img_act('imgmenu_3')" OnMouseOut="img_inact('imgmenu_3')"><img src="images/up_c_07.gif" border=0 name="imgmenu_3"></a></TD>
+		<td>	
+			<a href="../e/index_e.html" target="_parent" OnMouseOver="img_act('imgmenu_4')" OnMouseOut="img_inact('imgmenu_4')"><img src="images/up_c_08.gif" border=0 name="imgmenu_4"></a></TD>
+		<td>	
+			<a href="../f/index_f.html" target="_parent" OnMouseOver="img_act('imgmenu_5')" OnMouseOut="img_inact('imgmenu_5')"><img src="images/up_c_09.gif" border=0 name="imgmenu_5"></a></TD>
+		<TD>
+			<IMG SRC="images/up_c_10.gif" BORDER=0></TD></TR>
+</TABLE>
+
+</BODY>
+</HTML>

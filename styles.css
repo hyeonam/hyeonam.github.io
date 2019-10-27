@@ -1,0 +1,164 @@
+#containerOut {
+width: 760px;
+margin: 15px auto;
+}
+
+#containerIn01 {
+width: 630px;
+padding: 0;
+margin: 0;
+}
+
+#containerIn02 {
+width: 450px;
+padding: 0;
+margin: 0;
+}
+
+#side {
+width: 140px;
+float: left;
+/*background-color: #000;*/
+padding: 0;
+margin: 0;
+}
+
+#main {
+margin: 0 0 0 155px;
+float: top;
+padding: 0;
+}
+
+#main h3 {
+padding: 0;
+margin: 0;
+}
+
+#side ul {
+padding: 10px;
+}
+#side li {
+display: block;
+}
+
+#contents {
+/*width:700px;*/
+margin-top: 15px;
+padding: 0;
+background-color: #eee;
+}
+
+ul {
+padding: 0;
+margin: 0;
+list-style-type: none;
+}
+
+li {
+display: inline;
+}
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 15px;
+	font-weight: normal;
+	color: #000000;
+	background-color: #eee;
+}
+
+#image {
+margin: 0 0 0 50px;
+}
+
+h1 {
+	font-size: 15px;
+	font-weight: bold;
+	color: #3333cc;
+}
+
+h2 {
+font-size: 14px;
+font-weight: bold;
+color: #669999;
+}
+
+h3 {
+font-size: 13px;
+font-weight: bold;
+color: #333333;
+}
+
+h4 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+line-height: 15px;
+font-weight: normal;
+color: #FF0000;
+}
+
+h5 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: normal;
+	color: #0000FF;
+}
+
+h6 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+}
+
+#mainnav {
+padding-bottom: 10px;
+border-bottom: 1px solid #ccc;
+}
+
+#mainnav a:link {
+text-decoration: none;
+font-weight: bold;
+color: #000;
+}
+
+#mainnav a:visited {
+text-decoration: none;
+font-weight: bold;
+color: #000;
+}
+
+#mainnav a:hover {
+text-decoration: none;
+font-weight: bold;
+color: #0000cc;
+}
+
+#mainnav a:active {
+text-decoration: none;
+font-weight: bold;
+color: #0000cc;
+}
+
+a:link {
+text-decoration: none;
+color: #000;
+}
+a:visited {
+text-decoration: none;
+color: #000;
+}
+a:hover {
+text-decoration: none;
+color: #0000cc;
+}
+a:active {
+text-decoration: none;
+color: #0000cc;
+}
+
+/* outer styles */
+
+#white {
+background-color: #fff;
+}

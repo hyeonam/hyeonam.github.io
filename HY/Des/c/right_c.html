@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+<META NAME="Generator" CONTENT="EditPlus 1.2">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+</HEAD>
+<script language="JavaScript">
+<!--//
+      imgmenu_1on = new Image();
+      imgmenu_1on.src = "Image/breakfast_on.gif";
+      imgmenu_2on = new Image();
+      imgmenu_2on.src = "Image/appetizer_on.gif";
+      imgmenu_3on = new Image();
+      imgmenu_3on.src = "Image/cookingtip_on.gif";
+      imgmenu_4on = new Image();
+      imgmenu_4on.src = "Image/mylunch_on.gif";
+      
+
+      imgmenu_1off = new Image();
+      imgmenu_1off.src = "Image/breakfast.gif";
+      imgmenu_2off = new Image();
+      imgmenu_2off.src = "Image/appetizer.gif";
+      imgmenu_3off = new Image();
+      imgmenu_3off.src = "Image/cookingtip.gif";
+      imgmenu_4off = new Image();
+      imgmenu_4off.src = "Image/mylunch.gif";
+      
+
+
+  function img_act(imgName) {
+      imgon = eval(imgName + "on.src");
+      document [imgName].src = imgon;
+     } 
+  function img_inact(imgName) {
+      imgoff = eval(imgName + "off.src");
+      document [imgName].src = imgoff;
+    }
+//-->
+</script>
+
+<BODY BGCOLOR="#FFFFFF">
+<table border="0" width="530">
+              <tr> 
+                <td width="530" colspan="2"> 
+                 <td>
+                    <table width="29" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tr> 
+                      <td width="108"><a href="breakfast.html" OnMouseOver="img_act('imgmenu_1')" OnMouseOut="img_inact('imgmenu_1')" ><img border="0" src="Image/breakfast.gif"  name="imgmenu_1"></a></td>
+                      <td colspan="3"><img src="Image/bar_01.gif"></td>
+                    </tr>
+                    <tr> 
+                      <td colspan="3"><img border="0" src="Image/bar_02.gif"></td>
+                      <td><a href="appetizer.html" OnMouseOver="img_act('imgmenu_2')" OnMouseOut="img_inact('imgmenu_2')" ><img  border="0" src="Image/appetizer.gif"  name="imgmenu_2"></a></td>
+                    </tr>
+                    <tr> 
+                      <td ><img src="Image/bar_03.gif"></td>
+                      <td ><a href="cookingtip.html" OnMouseOver="img_act('imgmenu_3')" OnMouseOut="img_inact('imgmenu_3')"><img  border="0" src="Image/cookingtip.gif"  name="imgmenu_3"></a></td>
+                      <td colspan="2"><img src="Image/bar_04.gif"></td>
+                    </tr>
+                    <tr> 
+                      <td colspan="2"><img src="Image/bar_05.gif"></td>
+                      <td ><a href="mylunch.html" OnMouseOver="img_act('imgmenu_4')" OnMouseOut="img_inact('imgmenu_4')"><img  border="0" src="Image/mylunch.gif"  name="imgmenu_4"></a></td>
+                      <td><img src="Image/bar_06.gif"></td>
+                    </tr>
+                    
+                  </table>
+</BODY>
+</HTML>
